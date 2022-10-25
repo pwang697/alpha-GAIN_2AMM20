@@ -4,8 +4,8 @@ $\alpha$-GAIN is a variance of the Generative Adversarial Imputation Networks (G
 
 ## Installation
 
-- &To install dependent packages, activate the experimental environment and type: <br> `pip install -r requirements.txt`
-- &Known dependencies: Python (3.6.13), torch (1.4.0), numpy (1.21.5), sacred (0.8.2)
+- To install dependent packages, activate the experimental environment and type: <br> `pip install -r requirements.txt`
+- Known dependencies: Python (3.6.13), torch (1.4.0), numpy (1.21.5), sacred (0.8.2)
 
 ## Usage
 
