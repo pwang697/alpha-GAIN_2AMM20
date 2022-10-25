@@ -4,15 +4,30 @@ $\alpha$-GAIN is a variance of the Generative Adversarial Imputation Networks (G
 
 ## Installation
 
-- To install dependent packages, activate the experimental environment and type: <br> `pip install -r requirements.txt`
+- To install dependent packages, activate the experimental environment and type: <br>
+
+```
+pip install -r requirements.txt
+```
+
 - Known dependencies: Python (3.6.13), torch (1.4.0), numpy (1.21.5), sacred (0.8.2)
 
 ## Usage
 
 Firstly, `cd` into the directory, then
 
-- Start an experiment by default: <br> `python train.py`
-- [Sacred](https://github.com/IDSIA/sacred) is used to manage configuration and record logging, the configuration can be updated with their CLI, i.e. <br> `python train.py with dataset="Popular" repetition=100 mr=0.7 hr=0.8 is_fi=True is_dh=True`
+- Start an experiment by default: <br>
+
+```
+python train.py
+```
+
+- [Sacred](https://github.com/IDSIA/sacred) is used to manage configuration and record logging, the configuration can be updated with their CLI, i.e. <br>
+
+```
+python train.py with dataset="Popular" repetition=100 mr=0.7 hr=0.8 is_fi=True is_dh=True
+```
+
 - System parameters: <br>
   `dataset` choose a dataset (default: `"Letter"`)<br>
   `repetition` repeat the experiment a couple of times (default: `10`)<br>
