@@ -1,0 +1,13 @@
+{
+  "alpha": 10,
+  "batch_size": 128,
+  "dataset": "Letter",
+  "hr": 0.8,
+  "is_dh": false,
+  "is_fi": false,
+  "iteration": 5000,
+  "mr": 0.5,
+  "repetition": 10,
+  "seed": 26263814,
+  "train_rate": 0.8
+}

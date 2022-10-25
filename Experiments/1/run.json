@@ -1,0 +1,65 @@
+{
+  "artifacts": [],
+  "command": "main",
+  "experiment": {
+    "base_dir": "C:\\Users\\pwang\\Desktop\\alphaGAIN",
+    "dependencies": [
+      "numpy==1.19.2",
+      "sacred==0.8.2",
+      "torch==1.4.0"
+    ],
+    "mainfile": "train.py",
+    "name": "train",
+    "repositories": [],
+    "sources": [
+      [
+        "train.py",
+        "_sources\\train_733d451de0008e9f4cb2bd54a567871f.py"
+      ]
+    ]
+  },
+  "heartbeat": "2022-10-23T23:41:34.796719",
+  "host": {
+    "ENV": {},
+    "cpu": "Unknown",
+    "hostname": "XXXXXPS",
+    "os": [
+      "Windows",
+      "Windows-10-10.0.22621-SP0"
+    ],
+    "python_version": "3.6.13"
+  },
+  "meta": {
+    "command": "main",
+    "options": {
+      "--beat-interval": null,
+      "--capture": null,
+      "--comment": null,
+      "--debug": false,
+      "--enforce_clean": false,
+      "--file_storage": null,
+      "--force": false,
+      "--help": false,
+      "--loglevel": null,
+      "--mongo_db": null,
+      "--name": null,
+      "--pdb": false,
+      "--print-config": false,
+      "--priority": null,
+      "--queue": false,
+      "--s3": null,
+      "--sql": null,
+      "--tiny_db": null,
+      "--unobserved": false,
+      "COMMAND": null,
+      "UPDATE": [],
+      "help": false,
+      "with": false
+    }
+  },
+  "resources": [],
+  "result": null,
+  "start_time": "2022-10-23T23:37:14.149071",
+  "status": "COMPLETED",
+  "stop_time": "2022-10-23T23:41:34.796719"
+}
