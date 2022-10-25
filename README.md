@@ -40,7 +40,7 @@ python train.py with dataset="Popular" repetition=100 mr=0.7 hr=0.8 is_fi=True i
   `is_fi` whether use fake indication (default: `False`)<br>
   `is_dh` whether use dynamic hint rate (default: `False`)
 
-## More Info:
+## More Info
 
 The default setting (`is_fi=False is_dh=False`) performs as the GAIN framework, a fully equipped $\alpha$-GAIN should be set with `is_fi=True is_dh=True`. The "Datasets" directory contains three datasets: single-level dataset [Letter](https://archive.ics.uci.edu/ml/datasets/Letter+Recognition), single-level dataset [Spam](https://archive.ics.uci.edu/ml/datasets/Spambase), and multi-level dataset [Popularity](https://github.com/MultiLevelAnalysis/Datasets-third-edition-Multilevel-book/tree/479cec4390efb7f84bb94df0e3c381e173782669/chapter%202/popularity/SPSS).
 
