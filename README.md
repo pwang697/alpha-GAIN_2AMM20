@@ -22,7 +22,7 @@ Firstly, `cd` into the directory, then
 python train.py
 ```
 
-- [Sacred](https://github.com/IDSIA/sacred) is used to manage configuration and record logging. Results will be automatically saved in `.\\Experiments\\`. The configuration can be changed with their CLI, i.e. <br>
+- [Sacred](https://github.com/IDSIA/sacred) is used to manage configuration and record logging. Results will be automatically saved in a folder named `Experiments`. The configuration can be changed with their CLI, i.e. <br>
 
 ```
 python train.py with dataset="Popular" repetition=100 mr=0.7 hr=0.8 is_fi=True is_dh=True
